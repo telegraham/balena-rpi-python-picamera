@@ -1,3 +1,3 @@
 modprobe v4l2_common && python demo.py &
 cd /data
-python -m SimpleHTTPServer 80
+python -m http.server 80
