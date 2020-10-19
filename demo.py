@@ -15,4 +15,4 @@ with PiCamera() as camera:
       break
 
 print('Pictures taken')
-time.sleep(10)
+sleep(10)
