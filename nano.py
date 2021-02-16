@@ -11,7 +11,7 @@ with PiCamera() as camera:
   camera.framerate = 2.5
   camera.shutter_speed = 400000
   sleep(30) # Camera warm-up time
-  camera.capture_continuous('/data/image.jpg')
+  camera.capture('/data/image.jpg')
 
 print('Picture taken')
 sleep(10)
