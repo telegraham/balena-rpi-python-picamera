@@ -8,7 +8,7 @@ RUN READTHEDOCS=True pip install -r /requirements.txt
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
-RUN echo "*/5 * * * * /usr/src/app/job.sh" | crontab
+# RUN echo "*/5 * * * * /usr/src/app/job.sh" | crontab
 
 CMD ["bash","start.sh"]
 
